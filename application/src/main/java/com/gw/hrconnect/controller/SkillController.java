@@ -15,6 +15,7 @@ public class SkillController {
 	@Autowired
 	private SkillService skillService;
 	
+	@CrossOrigin(origins = "*", allowedHeaders = "*")
 	@GetMapping("/welcome")
 	public String welcome() {
 		return "hellooooo  aasasasasasasasoasasasasassfsdfsdfdsf";
